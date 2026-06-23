@@ -22,3 +22,9 @@ while True:
 
     else:
         print("Invalid Choice")
+        
+    elif choice == "4":
+    name = input("Enter student name to delete: ")
+    if name in students:
+        students.remove(name)
+        print("Deleted")
